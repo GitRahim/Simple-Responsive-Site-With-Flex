@@ -1,0 +1,56 @@
+@media (max-width: 425px) {
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    #navbar .logo{
+        margin-bottom: 0.5rem;
+    }
+    #navbar ul{
+        padding: 0.5rem;
+    }
+    #showcase h2{
+        margin: 1rem 0;
+    }
+    #showcase p{
+        font-size: 0.8rem;
+        margin-top: 0;
+    }
+    #showcase .btn{
+        font-size: 0.8rem;
+        margin-top: 0;
+    }
+    #section3 .items div a{
+        font-size: 0.5rem;
+    }
+    #footer{
+        flex-direction: column-reverse;
+        align-content: space-between;
+    }
+}
+#section1 .items{
+    display: block;
+}
+#section1 .items .item{
+    display: flex;
+    text-align: right;
+}
+#section1 .items .item span{
+    align-self: flex-start;
+}
+#section1 .items .item p{
+    margin-right: 1rem;
+}
+
+#section1 h2,
+#section3 h2{
+    padding-top: 6rem;
+}
+
+#section2 {
+    flex-direction: column;
+}
+
+#section2 .img{
+    flex-basis: 50vh;
+}

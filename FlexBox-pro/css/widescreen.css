@@ -1,0 +1,10 @@
+#section1 .items .item{
+    display: flex;
+    text-align: right;
+}
+#section1 .items .item span{
+    align-self: flex-start;
+}
+#section1 .items .item p{
+    margin-right: 1rem;
+}
